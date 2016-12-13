@@ -39,3 +39,9 @@ nosetests.xml
 *.komodoproject
 
 .DS_Store
+*~
+a.out
+
+# Idris
+*.ibc
+
