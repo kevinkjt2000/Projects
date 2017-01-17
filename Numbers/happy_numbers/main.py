@@ -55,10 +55,9 @@ def test_lots_of_happiness():
 
 
 def test_sadness():
-    sad_numbers = set(range(1,1001)) - set(first_n_happy_numbers(1000))
+    sad_numbers = set(range(1, 1001)) - set(first_n_happy_numbers(1000))
     assert not any(map(is_happy_number, sad_numbers))
 
 
 if __name__ == '__main__':
     print(list(first_n_happy_numbers(8)))
-

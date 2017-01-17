@@ -27,4 +27,3 @@ def test_two_factors():
 def test_big_numbers():
     assert prime_factors(12345) == [3, 5, 823]
     assert prime_factors(123456789) == [3, 3, 3607, 3803]
-
